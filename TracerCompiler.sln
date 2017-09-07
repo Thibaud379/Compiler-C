@@ -1,28 +1,43 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.vcxproj", "{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TracerCompiler", "ConsoleApplication2\ConsoleApplication2.vcxproj", "{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Normal|x64 = Normal|x64
+		Normal|x86 = Normal|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Vide|x64 = Vide|x64
+		Vide|x86 = Vide|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Debug|x64.ActiveCfg = Debug|x64
 		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Debug|x64.Build.0 = Debug|x64
 		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Debug|x86.ActiveCfg = Debug|Win32
 		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Debug|x86.Build.0 = Debug|Win32
-		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x64.ActiveCfg = Release|x64
-		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x64.Build.0 = Release|x64
-		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x86.ActiveCfg = Release|Win32
-		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x86.Build.0 = Release|Win32
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Normal|x64.ActiveCfg = Normal|x64
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Normal|x64.Build.0 = Normal|x64
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Normal|x86.ActiveCfg = Normal|Win32
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Normal|x86.Build.0 = Normal|Win32
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x64.ActiveCfg = Normal|x64
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x64.Build.0 = Normal|x64
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x86.ActiveCfg = Normal|Win32
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Release|x86.Build.0 = Normal|Win32
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Vide|x64.ActiveCfg = Vide|x64
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Vide|x64.Build.0 = Vide|x64
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Vide|x86.ActiveCfg = Vide|Win32
+		{43A8004D-70FA-4C9E-9F61-A7AC4797FA12}.Vide|x86.Build.0 = Vide|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C70AE3DA-A6CC-4D97-98B8-3DFC6A29480E}
 	EndGlobalSection
 EndGlobal
