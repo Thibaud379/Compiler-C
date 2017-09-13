@@ -5,17 +5,18 @@ class Logger
 {
 	
 public:
-	static int DEBUG;
-	static int INFO;
-	static int WARNING;
-	static int ERROR;
-	static int FATAL;
-	static std::string Levels[5];
+	static const int DEBUG = 0;
+	static const int INFO = 1;
+	static const int WARNING = 2;
+	static const int ERROR = 3;
+	static const int FATAL = 3;
+	static bool _debug;
 
-	Logger(bool debug);
+	Logger();
 	~Logger();
-	void log(std::string message, int level);
+	static void log(std::string message, int level);
 private:
-	bool _debug;
+	
+	static std::string Levels[5];
 };
 

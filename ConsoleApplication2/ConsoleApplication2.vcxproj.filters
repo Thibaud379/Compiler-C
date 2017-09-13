@@ -45,4 +45,8 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="base.txt" />
+    <Text Include="test.txt" />
+  </ItemGroup>
 </Project>
